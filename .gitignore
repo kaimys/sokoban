@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+Sokoban.iml
+node_modules/
+public/sokoban-app.js

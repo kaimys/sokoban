@@ -1,0 +1,16 @@
+{
+  "eqnull": true,
+  "strict": true,
+  "globals": {
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "sinon": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "define": true,
+    "requestAnimationFrame": true
+  },
+  "undef": true,
+  "unused": true
+}
