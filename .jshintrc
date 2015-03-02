@@ -1,4 +1,5 @@
 {
+  "browserify": true,
   "eqnull": true,
   "strict": true,
   "globals": {
