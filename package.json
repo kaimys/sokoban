@@ -6,9 +6,9 @@
     "jscs": "jscs lib/*.js",
     "lint": "npm run jshint && npm run jscs",
     "test": "mocha test/**/*-test.js",
-    "build": "browserify ./lib/sokoban.js -o ./public/sokoban-app.js",
+    "build": "browserify ./lib/app.js -o ./public/sokoban-app.js",
     "clean": "rm ./public/sokoban-app.js",
-    "watch": "watchify ./lib/sokoban.js -o ./public/sokoban-app.js"
+    "watch": "watchify ./lib/app.js -o ./public/sokoban-app.js"
   },
   "devDependencies": {
     "async": "^0.9.0",
